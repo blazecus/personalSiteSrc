@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <header>
+      {% include "header.liquid" %}
+    </header>
+    <body>
+    <div>
+      <h2>{{ page.title }}</h2>
+      {{ page.content }}
+    </div>
+    <div>
+    {% for post in collections.posts.pages %}
+      {%assign pagecat = page.categories | append: "" %}
+      {%assign postcat = post.categories | append: "" %}
+      {%if postcat contains pagecat and pagecat != ""%}
+        <a href= {{post.permalink}}> {{post.title}} </a>
+      {% endif %}
+    {% endfor %}
+    </div>
+    <footer>
+      {% include "footer.liquid" %}
+    </footer>
+  </body>
+</html>
