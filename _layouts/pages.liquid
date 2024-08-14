@@ -17,7 +17,7 @@
       {%assign pagecat = page.categories | append: "" %}
       {%assign postcat = post.categories | append: "" %}
       {%if postcat contains pagecat and pagecat != ""%}
-        <a href= {{post.permalink}}> {{post.title}} </a>
+        <a href= {{site.base_url}}/{{post.permalink}}> {{post.title}} </a>
       {% endif %}
     {% endfor %}
     </div>
