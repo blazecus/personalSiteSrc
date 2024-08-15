@@ -13,12 +13,13 @@
         <h2>{{ page.title }}</h2>
         {{ page.content }}
     </div>
-    <div>
+    <div class = "post-list">
       {% for post in collections.posts.pages %}
         {%assign pagecat = page.categories | append: "" %}
         {%assign postcat = post.categories | append: "" %}
         {%if postcat contains pagecat and postcat != ""%}
           {% if post.data.show_on_homepage %}
+            <a href={{ site.base_url }}/{{ post.permalink }}>
             <div class="post-preview">
               {% if post.data.thumbnail %}
                 <div style="float: left; margin: 0 8px -6px -2px;"><img src="{{ post.data.thumbnail }}" class="thumbnail"></div>
@@ -26,15 +27,18 @@
                 <div style="float: left; margin: 0 8px -6px -2px;"><img src="assets/thumbnails/missing.png" class="thumbnail"></div>
               {% endif %}
               {% if post.is_draft %}
-                <a href={{site.base_url}}/{{ post.permalink }}>{{ post.title }}</a>
-                <p style="margin: 0; font-size: small;">{{ post.description }}</p>
+                <p style="margin: 0; font-size: 32px; text-decoration-line: underline">{{post.title}}</p>
+                <br>
+                <p style="margin: 0; font-size: medium; text-decoration-line:none: color:black">{{ post.description }}</p>
               {% else %}
                 <p style="margin: 0;">
-                <a href={{site.base_url}}/{{ post.permalink }}>{{ post.title }}</a>
-                <span style="font-size: small; color: #AAA; float: right; margin: 0 8px 0 0;">{{ post.published_date | date: "%b %d, %Y" }}</span></p>
-                <p style="margin: 0; font-size: small;">{{ post.description }}</p>
+                <p style="margin: 0; font-size: 32px; text-decoration-line: underline">{{post.title}}</p>
+                <span style="font-size: medium; color: #AAA; float: right; margin: -32px 8px 0 0;">{{ post.published_date | date: "%b %d, %Y" }}</span></p>
+                <br>
+                <p style="margin: 0; font-size: medium; text-decoration-line:none; color: black">{{ post.description }}</p>
               {% endif %}
             </div>
+            </a>
           {% endif %}
         {% endif %}
       {% endfor %}

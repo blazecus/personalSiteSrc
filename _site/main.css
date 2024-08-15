@@ -12,6 +12,12 @@
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  width: 65%;
+  margin: auto;
+}
+
+.header table {
+  margin: auto;
 }
 
 /* Style the header links */
@@ -21,7 +27,7 @@
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -76,14 +82,16 @@
 }
 
 .title {
-    text-align: left;
+    float: left;
     color:black;
     text-decoration: dashed;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 32px;
     border-radius: 10px;
     margin-bottom: 25px;
     margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
     font-weight:bolder;
 }
 
@@ -95,16 +103,16 @@
     min-height: auto;
 }
 
+.post-list div:hover{
+  background-color: #ddd;
+  color: black;
+}
+
 .thumbnail {
     width: 8em;
     height: 8em;
     border: 0px solid var(--secondary-color);
     border-radius: 4px;
-}
-
-.post-list {
-  border-style:dashed;
-  border-color: blue;
 }
 
 .display-image{
@@ -135,4 +143,15 @@
 
 .grid-image {
   margin: auto;
+}
+
+.post-list {
+  margin: auto;
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.post-list a {
+  text-decoration-line: none;
 }
