@@ -1,3 +1,12 @@
+:root {
+    --primary-color: #302AE6;
+    --secondary-color: #d4defc;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+    --link-color: #26E;
+}
+
 /* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
@@ -28,7 +37,7 @@
     border-spacing: 2px;
 }
 
-th, th {
+.header th, th {
     padding: 2px;
 }
 /* Change the background color on mouse-over */
@@ -80,15 +89,50 @@ th, th {
 
 .post-preview {
     overflow:hidden; 
-    margin: 4px 0 4px 0; 
+    margin: 8px 0 8px 0; 
     border: 2px solid var(--secondary-color); 
     border-radius: 4px; 
     min-height: auto;
 }
 
 .thumbnail {
-    width: 4em;
-    height: 4em;
+    width: 8em;
+    height: 8em;
     border: 0px solid var(--secondary-color);
     border-radius: 4px;
+}
+
+.post-list {
+  border-style:dashed;
+  border-color: blue;
+}
+
+.display-image{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin:auto;
+}
+
+.blog-post {
+  margin: auto;
+  width: 50%;
+  border: 3px solid var(--secondary-color);
+  padding: 10px;
+}
+
+.blog-post h2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.blog-text{
+  float: left;
+}
+
+.grid-image {
+  margin: auto;
 }
