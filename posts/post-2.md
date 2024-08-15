@@ -4,8 +4,8 @@ layout: default.liquid
 title: Second Post
 is_draft: false
 categories: 
-  - Origami
-  - Original
+  - origami
+  - original
 ---
 
 # This is our second Post!

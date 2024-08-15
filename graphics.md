@@ -1,9 +1,9 @@
 ---
 title: graphics
-layout: default.liquid
+layout: pages.liquid
 permalink: /{{categories}}
 categories: 
-  - Graphics
+  - graphics
 ---
 ## Blog!
 

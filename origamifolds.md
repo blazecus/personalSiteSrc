@@ -1,10 +1,10 @@
 ---
 title: origamifolds
-layout: default.liquid
+layout: pages.liquid
 permalink: /{{categories}}
 categories: 
-  - Origami
-  - Folds
+  - origami
+  - folds
 ---
 ## Blog!
 

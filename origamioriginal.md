@@ -1,10 +1,10 @@
 ---
 title: origamioriginal
-layout: default.liquid
+layout: pages.liquid
 permalink: /{{categories}}
 categories: 
-  - Origami
-  - Original
+  - origami
+  - original
 ---
 ---
 ## Blog!

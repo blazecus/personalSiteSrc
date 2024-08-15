@@ -3,23 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/main.css">
     </head>
     <header>
       {% include "header.liquid" %}
     </header>
     <body>
     <div>
-      <h2>{{ page.title }}</h2>
-      {{ page.content }}
+        <h2>{{ page.title }}</h2>
+        {{ page.content }}
     </div>
     <div>
-    {% for post in collections.posts.pages %}
-      {%assign pagecat = page.categories | append: "" %}
-      {%assign postcat = post.categories | append: "" %}
-      {%if postcat contains pagecat and pagecat != ""%}
-        <a href= {{site.base_url}}/{{post.permalink}}> {{post.title}} </a>
-      {% endif %}
-    {% endfor %}
+      {% for post in collections.posts.pages %}
+        {%assign pagecat = page.categories | append: "" %}
+        {%assign postcat = post.categories | append: "" %}
+        {%if postcat contains pagecat and postcat != ""%}
+          {% if post.data.show_on_homepage %}
+            <div class="post-preview">
+              {% if post.data.thumbnail %}
+                <div style="float: left; margin: 0 8px -6px -2px;"><img src="{{ post.data.thumbnail }}" class="thumbnail"></div>
+              {% else %}
+                <div style="float: left; margin: 0 8px -6px -2px;"><img src="assets/thumbnails/missing.png" class="thumbnail"></div>
+              {% endif %}
+              {% if post.is_draft %}
+                <a href={{site.base_url}}/{{ post.permalink }}>{{ post.title }}</a>
+                <p style="margin: 0; font-size: small;">{{ post.description }}</p>
+              {% else %}
+                <p style="margin: 0;">
+                <a href={{site.base_url}}/{{ post.permalink }}>{{ post.title }}</a>
+                <span style="font-size: small; color: #AAA; float: right; margin: 0 8px 0 0;">{{ post.published_date | date: "%b %d, %Y" }}</span></p>
+                <p style="margin: 0; font-size: small;">{{ post.description }}</p>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     </div>
     <footer>
       {% include "footer.liquid" %}

@@ -1,9 +1,9 @@
 ---
 title: gamedevhome
-layout: default.liquid
+layout: pages.liquid
 permalink: /{{categories}}
 categories: 
-  - GameDev
+  - gamedev
 ---
 ## Blog!
 

@@ -1,10 +1,10 @@
 ---
 title: Random Origami Thoughts
-layout: default.liquid
+layout: pages.liquid
 permalink: /{{categories}}
 categories: 
-  - Origami
-  - Blogs
+  - origami
+  - blog
 ---
 ## Blog!
 
