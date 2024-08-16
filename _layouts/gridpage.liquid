@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+    <header>
+      {% include "header.liquid" %}
+    </header>
+    <body>
+    <div>
+        <h2>{{ page.title }}</h2>
+        {{ page.content }}
+    </div>
+    <div class = "post-list">
+        <div class = "grid-image">
+      {% for post in collections.posts.pages %}
+        {%assign pagecat = page.categories | append: "" %}
+        {%assign postcat = post.categories | append: "" %}
+        {%if postcat contains pagecat and postcat != ""%}
+          {% if post.data.show_on_homepage %}
+            <a href={{ site.base_url }}/{{ post.permalink }}>
+              {% if post.data.thumbnail %}
+                <img src="{{ post.data.thumbnail }}" class="thumbnail">
+              {% else %}
+                <img src="assets/thumbnails/missing.png" class="thumbnail">
+              {% endif %}
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    </div>
+    <footer>
+      {% include "footer.liquid" %}
+    </footer>
+  </body>
+</html>

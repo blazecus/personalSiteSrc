@@ -1,6 +1,6 @@
 ---
 title: origamioriginal
-layout: pages.liquid
+layout: gridpage.liquid
 permalink: /{{categories}}
 categories: 
   - origami
@@ -8,9 +8,3 @@ categories:
 ---
 ---
 ## Blog!
-
-{% for post in collections.posts.pages %}
-#### {{post.title}}
-
-[{{ post.title }}]({{ post.permalink }})
-{% endfor %}

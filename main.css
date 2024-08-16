@@ -155,3 +155,17 @@
 .post-list a {
   text-decoration-line: none;
 }
+
+.grid-preview {
+  padding: 5px;
+  width: 100px;
+}
+
+.grid-image {
+}
+
+.grid-image :hover {
+
+  margin:0px; 
+  scale: 1.1;
+}
