@@ -161,10 +161,10 @@
   width: 100px;
 }
 
-.grid-image {
+.grid{
 }
 
-.grid-image :hover {
+.grid :hover {
 
   margin:0px; 
   scale: 1.1;
