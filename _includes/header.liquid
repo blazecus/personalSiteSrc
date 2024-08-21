@@ -5,7 +5,10 @@
 <link rel="stylesheet" href="/main.css">
 </head>
 <div class="header">
-<div class = "title" > Jack Blazes' Stuff </div>
+<div>
+<div class = "title" > Jack Blazes' Stuff
+</div>
+</div>
 <table>
     {% if page.title == "Home Page"%}
         <th> <a class = "active" href= {{site.base_url}}/index.html> Home </a> </th>
@@ -31,6 +34,13 @@
         <th> <a href= {{site.base_url}}/gamedev/index.html> Game Development </a> </th>
     {% endif %}
 
+    {% if page.title == "About"%}
+        <th> <a class = "active" href= {{site.base_url}}/about/index.html> About </a> </th>
+    {% else %}
+        <th> <a href= {{site.base_url}}/about/index.html> About </a> </th>
+    {% endif %}
+
 </table>
+<a class = "corner" href = {{site.base_url}}/assets/resume.pdf> Resume </a>
 </div>
 </html>

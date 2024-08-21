@@ -11,8 +11,12 @@ data:
   show_on_homepage: true
   thumbnail: /assets/origami/pachacuti_thumbnail.png
 ---
+<br>
+<br>
 <div class = "blog-post">
-    <h2> {{ page.title }} </h2>
+    <div class = "title"> {{ page.title }} </div>
+    <hr>
+    <br>
     <table>
     <th><img src="/assets/origami/pachacuti1.png" class = "display-image"></th>
     <th><img src="/assets/origami/pachacuti2.png" class = "display-image"></th>

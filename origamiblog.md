@@ -6,10 +6,13 @@ categories:
   - origami
   - blog
 ---
-## Blog!
 
-{% for post in collections.posts.pages %}
-#### {{post.title}}
-
-[{{ post.title }}]({{ post.permalink }})
-{% endfor %}
+<br>
+<hr>
+<div class = "title">
+Origami Blog Page
+</div>
+<div class = "page-summary">
+Miscellanious posts about origami and origami design
+</div>
+<hr>

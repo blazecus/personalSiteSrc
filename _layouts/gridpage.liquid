@@ -10,7 +10,7 @@
     </header>
     <body>
     <div>
-        <h2>{{ page.title }}</h2>
+        {%comment%} <h2>{{ page.title }}</h2> {%endcomment%}
         {{ page.content }}
     </div>
     <div class = "grid">
@@ -19,7 +19,8 @@
         {%assign postcat = post.categories | append: "" %}
         {%if postcat contains pagecat and postcat != ""%}
           {% if post.data.show_on_homepage %}
-            <a href={{ site.base_url }}/{{ post.permalink }}>
+            <a class="grid-image" href={{ site.base_url }}/{{ post.permalink }}>
+              <div class = "center-image">{{post.title}}</div>
               {% if post.data.thumbnail %}
                 <img src="{{ post.data.thumbnail }}" class="grid-preview">
               {% else %}

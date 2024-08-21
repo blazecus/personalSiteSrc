@@ -6,5 +6,16 @@ categories:
   - origami
   - original
 ---
----
-## Blog!
+<br>
+<hr>
+<br>
+<div class = "title">
+Original Origami Designs
+</div>
+<br>
+<div class = "page-summary">
+This is a list of all my original origami designs. Click on an image to view more information on each.
+</div>
+<br>
+<hr>
+<br>

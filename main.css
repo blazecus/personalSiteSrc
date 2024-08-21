@@ -14,6 +14,7 @@
   padding: 20px 10px;
   width: 65%;
   margin: auto;
+  position: relative;
 }
 
 .header table {
@@ -80,7 +81,10 @@
 }
 
 .title {
-    float: left;
+    text-align: center;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
     color:black;
     text-decoration: dashed;
     font-size: 40px;
@@ -88,8 +92,6 @@
     border-radius: 10px;
     margin-bottom: 25px;
     margin-top: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
     font-weight:bolder;
 }
 
@@ -122,10 +124,20 @@
 }
 
 .blog-post {
+  text-align:left;
   margin: auto;
   width: 50%;
-  border: 3px solid var(--secondary-color);
+  /*border: 3px solid var(--secondary-color);*/
   padding: 10px;
+  font-size: 20px;
+}
+
+.page-summary {
+  text-align:center;
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  font-size: 20px;
 }
 
 .blog-post h2 {
@@ -133,10 +145,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-
-.blog-text{
-  float: left;
 }
 
 .grid-image {
@@ -156,17 +164,55 @@
 
 .grid-preview {
   padding: 10px;
-  width: 200px;
+  width: 150px;
   border-radius: 30px;
+  z-index: 10;
 }
 
 .grid{
   margin: auto;
   width: 65%;
+  border: 3px solid var(--secondary-color);
 }
 
-.grid :hover {
+.grid-image :hover {
   margin:0px; 
   scale: 1.15;
-  opacity: 0.7;
+  opacity: 0.4;
+  visibility: visible !important;
+}
+
+
+.grid-image{
+  text-align: center;
+  position: relative;
+}
+
+hr{
+  border-top: 5px solid gray;
+  width: 65%;
+}
+
+.center-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -130px);
+  color: rgba(0,0,0,1);
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: underline;
+  opacity: before;
+  text-align: center;
+  visibility: visible;
+  z-index: -1 !important;
+}
+
+.corner {
+  display: inline-flex;
+  margin-left: 90%;
+  position: absolute;
+  top: 10%;
+  display:flex;
+  line-height: 1px;
 }
