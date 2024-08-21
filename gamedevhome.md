@@ -5,10 +5,26 @@ permalink: /{{categories}}
 categories: 
   - gamedev
 ---
-## Blog!
 
-{% for post in collections.posts.pages %}
-#### {{post.title}}
-
-[{{ post.title }}]({{ post.permalink }})
-{% endfor %}
+<br>
+<hr>
+<br>
+<div class = "title">
+Game Development
+</div>
+<div class = "page-summary">
+This page contains the games I've made, development logs, and any other random posts about game development.
+</div>
+<br>
+<div class = "second-header">
+<div class = "header-middle">
+<table>
+<th> <a href= {{site.base_url}}/gamedev/games/index.html> My Games </a></th>
+<th> <a href= {{site.base_url}}/gamedev/devlog/index.html> Dev Logs </a> </th>
+<th> <a href= {{site.base_url}}/gamdev/blog/index.html> Random/Progress Posts </a> </th>
+</table>
+</div>
+</div>
+<br>
+<hr>
+<br>
