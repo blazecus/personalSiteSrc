@@ -21,9 +21,9 @@
           {% if post.data.show_on_homepage %}
             <a href={{ site.base_url }}/{{ post.permalink }}>
               {% if post.data.thumbnail %}
-                <img src="{{ post.data.thumbnail }}" class="thumbnail">
+                <img src="{{ post.data.thumbnail }}" class="grid-preview">
               {% else %}
-                <img src="assets/thumbnails/missing.png" class="thumbnail">
+                <img src="assets/thumbnails/missing.png" class="grid-preview">
               {% endif %}
             </a>
           {% endif %}
