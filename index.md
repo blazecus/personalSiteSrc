@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: Jack Blazes - Home Page
 layout: pages.liquid
 ---
 

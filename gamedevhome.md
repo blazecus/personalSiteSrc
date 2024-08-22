@@ -1,5 +1,5 @@
 ---
-title: gamedevhome
+title: Game Development
 layout: pages.liquid
 permalink: /{{categories}}
 categories: 
@@ -20,8 +20,8 @@ This page contains the games I've made, development logs, and any other random p
 <div class = "header-middle">
 <table>
 <th> <a href= {{site.base_url}}/gamedev/games/index.html> My Games </a></th>
-<th> <a href= {{site.base_url}}/gamedev/devlog/index.html> Dev Logs </a> </th>
-<th> <a href= {{site.base_url}}/gamdev/blog/index.html> Random/Progress Posts </a> </th>
+<th> <a href= {{site.base_url}}/gamedev/devlogs/index.html> Dev Logs </a> </th>
+<th> <a href= {{site.base_url}}/gamedev/blog/index.html> Random/Progress Posts </a> </th>
 </table>
 </div>
 </div>

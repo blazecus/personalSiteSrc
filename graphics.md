@@ -1,5 +1,5 @@
 ---
-title: graphics
+title: Graphics Software
 layout: pages.liquid
 permalink: /{{categories}}
 categories: 
