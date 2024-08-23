@@ -17,10 +17,17 @@ data:
     <div class = "title"> {{ page.title }} </div>
     <hr>
     <br>
-    <table>
-    <th><img src="/assets/origami/pachacuti1.png" class = "display-image"></th>
-    <th><img src="/assets/origami/pachacuti2.png" class = "display-image"></th>
+    <div class = "bg-div">
+    <br>
+    <table class = "image-table">
+    <th><img src="/assets/origami/pachacuti1.png"></th>
+    <th><img src="/assets/origami/pachacuti2.png"></th>
     </table>
+    <br>
+    sorry for the photography...
+    <br>
+    <br>
+    </div>
 
 Pachacuti is the common Anglicization of Pachacutec Inca Yupanqui, the ninth Sapa Inka, and the leader to take Cuzco from a city-state of regional importance to a growing imperial power. 
 
@@ -34,5 +41,9 @@ This was my first model I ever designed. I used box pleating and BP studio to co
 
 Based on this statue of Pachacuti in Cuzco.
 
-<img src="/assets/origami/pachacuti_statue.jpg" class = "display-image">
+<table class = "image-table">
+<th>
+<img src="/assets/origami/pachacuti_statue.jpg" >
+</th>
+</table>
 </div>
