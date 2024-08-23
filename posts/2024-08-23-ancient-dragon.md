@@ -49,4 +49,27 @@ Used a pretty big paper for this one too
 <br>
 <br>
 </div>
+
+<div class = "bg-div">
+<br>
+<table class = "image-table">
+<th><img src="/assets/origami/AD.gif"></th>
+</table>
+<br>
+Animated view
+<br>
+<br>
+</div>
+
+<div class = "bg-div">
+<br>
+<table class = "image-table">
+<th><img src="/assets/origami/AD_fold.gif"></th>
+</table>
+<br>
+Shaping process, not sure why gimp added a blur
+<br>
+<br>
+</div>
+
 </div>

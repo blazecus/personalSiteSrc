@@ -35,4 +35,15 @@ The paper size was approximately the same as with the kabutomushi, which you can
 
 Another great beetle design. This one is slightly less detailed than the kabutomushi. I chose black and orange to approximate the colors of the actual beetle. 
 
+<div class = "bg-div">
+<br>
+<table class = "image-table">
+<th><img src="/assets/origami/hercules_fold.gif"></th>
+</table>
+<br>
+Animated folding process
+<br>
+<br>
+</div>
+
 </div>
