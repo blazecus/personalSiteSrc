@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 layout: pages.liquid
 permalink: /{{categories}}
 categories: 
@@ -30,6 +30,6 @@ In addition to project posts, I plan to add tutorials and possibly videos from a
 
 The website also functions as a sort of portfolio, considering that I am going to add a lot of software projects on here in the graphics software and game development sections. For professional purposes, my resume is in the top right of the site, and contains my email if you need to contact me for anything. 
 
-Anyway, I'm Jack, I'm a software engineer based out of Seattle. Other than the hobbies seen on this site, I am into judo, history, fantasy media, gaming, running/rowing, and I play the banjo.
+Anyway, I'm Jack, I'm a software engineer based out of Seattle. Other than the hobbies seen on this site, I am into judo, history, fantasy/scifi books, gaming, running/rowing, and I play the banjo.
 
 </div>
