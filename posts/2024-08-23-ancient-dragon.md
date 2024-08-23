@@ -53,7 +53,7 @@ Used a pretty big paper for this one too
 <div class = "bg-div">
 <br>
 <table class = "image-table">
-<th><img src="/assets/origami/AD.gif"></th>
+<th><video controls autoplay src="/assets/origami/AD.mp4"></th>
 </table>
 <br>
 Animated view
@@ -64,10 +64,10 @@ Animated view
 <div class = "bg-div">
 <br>
 <table class = "image-table">
-<th><img src="/assets/origami/AD_fold.gif"></th>
+<th><video controls autoplay src="/assets/origami/AD_fold2.mp4"></th>
 </table>
 <br>
-Shaping process, not sure why gimp added a blur
+Shaping process
 <br>
 <br>
 </div>

@@ -265,3 +265,10 @@ hr{
   border-radius: 10px;
 
 }
+.image-table video {
+  margin: auto;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+
+}

@@ -38,7 +38,7 @@ Another great beetle design. This one is slightly less detailed than the kabutom
 <div class = "bg-div">
 <br>
 <table class = "image-table">
-<th><img src="/assets/origami/hercules_fold.gif"></th>
+<th><video controls autoplay src="/assets/origami/hercules_fold.mp4"></th>
 </table>
 <br>
 Animated folding process
