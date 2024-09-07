@@ -1,6 +1,6 @@
 ---
 title: White-spotted Sawyer Beetle
-description: A simple box-pleated veetle
+description: A simple box-pleated beetle
 categories:
 - origami
 - original
@@ -86,5 +86,12 @@ I found the flat shape of beetles harder to photograph than the humanoid models 
 </div>
 
 Here is the crease pattern:
+
+<div class = "bg-div">
+<br>
+<table class = "image-table">
+<th><img src="/assets/origami/sbcp.png"></th>
+</table>
+</div>
 
 </div>
