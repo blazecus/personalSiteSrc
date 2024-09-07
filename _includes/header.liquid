@@ -35,6 +35,12 @@
         <th> <a href= {{site.base_url}}/gamedev/index.html> Game Development </a> </th>
     {% endif %}
 
+    {% if page.categories contains "miscellaneous" %}
+        <th> <a class = "active" href= {{site.base_url}}/miscellaneous/index.html> Miscellaneous </a> </th>
+    {% else %}
+        <th> <a href= {{site.base_url}}/miscellaneous/index.html> Miscellaneous </a> </th>
+    {% endif %}
+
     {% if page.title == "About"%}
         <th> <a class = "active" href= {{site.base_url}}/about/index.html> About </a> </th>
     {% else %}
