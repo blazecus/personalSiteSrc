@@ -1,0 +1,1 @@
+C:\Users\JACKBL~1\DOCUME~1\emsdk\upstream\EMSCRI~2\EM__~1.BAT -sUSE_WEBGPU -sASYNCIFY --preload-file "C:/Users/Jack Blazes/Documents/engine/resources" -sALLOW_MEMORY_GROWTH -sUSE_GLFW=3 @CMakeFiles\App.dir\objects1.rsp -o App.html @CMakeFiles\App.dir\linkLibs.rsp

@@ -1,0 +1,13 @@
+C:/Users/Jack Blazes/Documents/engine/build-web/CMakeFiles/App.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/CMakeFiles/edit_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/CMakeFiles/rebuild_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/webgpu/CMakeFiles/edit_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/webgpu/CMakeFiles/rebuild_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/_deps/webgpu-backend-emscripten-build/CMakeFiles/edit_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/_deps/webgpu-backend-emscripten-build/CMakeFiles/rebuild_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/glfw3webgpu/CMakeFiles/glfw3webgpu.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/glfw3webgpu/CMakeFiles/edit_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/glfw3webgpu/CMakeFiles/rebuild_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/imgui/CMakeFiles/imgui.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/imgui/CMakeFiles/edit_cache.dir
+C:/Users/Jack Blazes/Documents/engine/build-web/imgui/CMakeFiles/rebuild_cache.dir

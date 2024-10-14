@@ -1,0 +1,80 @@
+[
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DRESOURCE_DIR=\"\\\"C:/Users/Jack Blazes/Documents/engine/resources\\\"\" -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/App.dir/includes_CXX.rsp -std=gnu++17 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\App.dir\\main.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\main.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/main.cpp",
+  "output": "CMakeFiles/App.dir/main.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DRESOURCE_DIR=\"\\\"C:/Users/Jack Blazes/Documents/engine/resources\\\"\" -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/App.dir/includes_CXX.rsp -std=gnu++17 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\App.dir\\Application.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\Application.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/Application.cpp",
+  "output": "CMakeFiles/App.dir/Application.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DRESOURCE_DIR=\"\\\"C:/Users/Jack Blazes/Documents/engine/resources\\\"\" -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/App.dir/includes_CXX.rsp -std=gnu++17 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\App.dir\\ClothObject.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\ClothObject.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/ClothObject.cpp",
+  "output": "CMakeFiles/App.dir/ClothObject.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DRESOURCE_DIR=\"\\\"C:/Users/Jack Blazes/Documents/engine/resources\\\"\" -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/App.dir/includes_CXX.rsp -std=gnu++17 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\App.dir\\ResourceManager.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\ResourceManager.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/ResourceManager.cpp",
+  "output": "CMakeFiles/App.dir/ResourceManager.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DRESOURCE_DIR=\"\\\"C:/Users/Jack Blazes/Documents/engine/resources\\\"\" -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/App.dir/includes_CXX.rsp -std=gnu++17 -Wall -Wextra -pedantic -Werror -o CMakeFiles\\App.dir\\implementations.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\implementations.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/implementations.cpp",
+  "output": "CMakeFiles/App.dir/implementations.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/glfw3webgpu",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\emcc.bat -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/glfw3webgpu.dir/includes_C.rsp  -o CMakeFiles\\glfw3webgpu.dir\\glfw3webgpu.c.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\glfw3webgpu\\glfw3webgpu.c\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/glfw3webgpu/glfw3webgpu.c",
+  "output": "glfw3webgpu/CMakeFiles/glfw3webgpu.dir/glfw3webgpu.c.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_wgpu.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\backends\\imgui_impl_wgpu.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/backends/imgui_impl_wgpu.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/backends/imgui_impl_wgpu.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_glfw.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\backends\\imgui_impl_glfw.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\misc\\cpp\\imgui_stdlib.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\misc\\cpp\\imgui_stdlib.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/misc/cpp/imgui_stdlib.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/misc/cpp/imgui_stdlib.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\imgui.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\imgui.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/imgui.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\imgui_draw.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\imgui_draw.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/imgui_draw.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\imgui_tables.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\imgui_tables.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/imgui_tables.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
+},
+{
+  "directory": "C:/Users/Jack Blazes/Documents/engine/build-web/imgui",
+  "command": "C:\\Users\\JACKBL~1\\DOCUME~1\\emsdk\\upstream\\EMSCRI~2\\EM__~1.BAT -DWEBGPU_BACKEND_EMSCRIPTEN @CMakeFiles/imgui.dir/includes_CXX.rsp  -o CMakeFiles\\imgui.dir\\imgui_widgets.cpp.o -c \"C:\\Users\\Jack Blazes\\Documents\\engine\\imgui\\imgui_widgets.cpp\"",
+  "file": "C:/Users/Jack Blazes/Documents/engine/imgui/imgui_widgets.cpp",
+  "output": "imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+}
+]

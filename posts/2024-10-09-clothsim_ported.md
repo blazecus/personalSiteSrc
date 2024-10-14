@@ -14,16 +14,20 @@ data:
 <div class = "blog-post">
 <br>
 <div class = "title">
-Compute Shader Cloth Simulator - C++ and WebGPU (page under construction)
+Compute Shader Cloth Simulator - C++ and WebGPU
 </div>
 
 <div class = "page-summary">
-A repeat of my earlier compute shader implementation of a cloth simulation on WebGPU, now built with C++
+A repeat of my earlier compute shader implementation of a cloth simulation on WebGPU, now built with C++ and available as an interactive demo on this site
 </div>
 <hr>
 <br>
 
-I will write much more in this post later but I wanted to first show off that I've finally done this after wading through a ton of boilerplate. Big thanks to Élie Michel for his work on <a href = "https://eliemichel.github.io/LearnWebGPU/index.html">this tutorial series</a>, it was super helpful. This project will open a lot of doors for me for future wgpu projects. 
+<a href= {{site.base_url}}/demos/cloth_demo/App.html> Click here to interact with the demo! </a>
+
+This demo uses compute shaders, so it will only work if you have WebGPU enabled, which you can do in Chrome <a href="https://developer.chrome.com/docs/web-platform/webgpu/troubleshooting-tips#:~:text=WebGPU%20is%20disabled%20when%20the,webgpu%20flag%20and%20restart%20Chrome.">like this</a>. Big thanks to Élie Michel for his work on <a href = "https://eliemichel.github.io/LearnWebGPU/index.html">this tutorial series</a>, it was super helpful, and for help on his related discord. If you want to see how this program works, you can look in <a href= "https://github.com/blazecus/WebGPU_Cloth">my repository</a>. There is code from Elie's tutorial in my repo (particularly the code in Application.cpp and ResourceManager.cpp).
+
+I might make a more comprehensive write-up eventually, but there is a very quick explanation of how this type of cloth simulator works on my previous <a href = {{site.base_url}}/posts/2024-09-11-clothsim.html>Rust implementation</a> of the same simulation.
 
 <div class = "bg-div">
 <br>
@@ -31,7 +35,7 @@ I will write much more in this post later but I wanted to first show off that I'
 <th><img src="/assets/graphics/webgpucloth.png"></th>
 </table>
 <br>
-Now it has lighting!!
+Now it has lighting!! I'll only include one screenshot, since it's better to experience the demo yourself at the link.
 <br>
 <br>
 </div>
