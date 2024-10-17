@@ -39,7 +39,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp7q1n288c.js
+// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpakihzgni.js
 
   if (!Module.expectedDataFileDownloads) {
     Module.expectedDataFileDownloads = 0;
@@ -221,25 +221,25 @@ Module['FS_createPath']("/C:/Users/Jack Blazes/Documents/engine", "resources", t
     }
 
     }
-    loadPackage({"files": [{"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cobblestone_floor_08_diff_2k.jpg", "start": 0, "end": 2289909}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cobblestone_floor_08_nor_gl_2k.png", "start": 2289909, "end": 10670339}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/compute.wgsl", "start": 10670339, "end": 10678095}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cylinder.obj", "start": 10678095, "end": 10681493}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen.mtl", "start": 10681493, "end": 10681815}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen.obj", "start": 10681815, "end": 15920361}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen2K_albedo.jpg", "start": 15920361, "end": 17325043}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen2K_normals.png", "start": 17325043, "end": 22705227}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/plane.obj", "start": 22705227, "end": 22705543}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/shader.wgsl", "start": 22705543, "end": 22707941}], "remote_package_size": 22707941});
+    loadPackage({"files": [{"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cobblestone_floor_08_diff_2k.jpg", "start": 0, "end": 2289909}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cobblestone_floor_08_nor_gl_2k.png", "start": 2289909, "end": 10670339}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/compute.wgsl", "start": 10670339, "end": 10681179}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/cylinder.obj", "start": 10681179, "end": 10684577}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen.mtl", "start": 10684577, "end": 10684899}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen.obj", "start": 10684899, "end": 15923445}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen2K_albedo.jpg", "start": 15923445, "end": 17328127}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/fourareen2K_normals.png", "start": 17328127, "end": 22708311}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/plane.obj", "start": 22708311, "end": 22708627}, {"filename": "C:/Users/Jack Blazes/Documents/engine/resources/shader.wgsl", "start": 22708627, "end": 22711025}], "remote_package_size": 22711025});
 
   })();
 
-// end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp7q1n288c.js
-// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpgk6crng0.js
+// end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpakihzgni.js
+// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp3wuk7176.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpgk6crng0.js
-// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp7y83dlyw.js
+  // end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp3wuk7176.js
+// include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpgqbqupma.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmp7y83dlyw.js
+  // end include: C:\Users\JACKBL~1\AppData\Local\Temp\tmpgqbqupma.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -8779,11 +8779,6 @@ function ImGui_ImplGlfw_EmscriptenOpenURL(url) { url = url ? UTF8ToString(url) :
       }
     };
 
-  var _wgpuSurfaceGetPreferredFormat = (surfaceId, adapterId) => {
-      var format = navigator["gpu"]["getPreferredCanvasFormat"]();
-      return WebGPU.Int_PreferredFormat[format];
-    };
-
   
   var _wgpuTextureCreateView = (textureId, descriptor) => {
       var desc;
@@ -9344,8 +9339,6 @@ var wasmImports = {
   wgpuSurfaceConfigure: _wgpuSurfaceConfigure,
   /** @export */
   wgpuSurfaceGetCurrentTexture: _wgpuSurfaceGetCurrentTexture,
-  /** @export */
-  wgpuSurfaceGetPreferredFormat: _wgpuSurfaceGetPreferredFormat,
   /** @export */
   wgpuTextureCreateView: _wgpuTextureCreateView,
   /** @export */

@@ -32,7 +32,14 @@ I might make a more comprehensive write-up eventually, but there is a very quick
 <div class = "bg-div">
 <br>
 <table class = "image-table">
+<tr>
+<th><img src="/assets/graphics/new_cloth.PNG"></th>
+<th><img src="/assets/graphics/new_cloth2.PNG"></th>
+</tr>
+<tr>
+<th><img src="/assets/graphics/new_cloth3.PNG"></th>
 <th><img src="/assets/graphics/webgpucloth.png"></th>
+</tr>
 </table>
 <br>
 Now it has lighting!! I'll only include one screenshot, since it's better to experience the demo yourself at the link.
