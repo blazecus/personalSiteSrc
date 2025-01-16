@@ -1,2 +1,0 @@
-C:\Users\JACKBL~1\DOCUME~1\emsdk\upstream\EMSCRI~2\emar.bat qc libimgui.a CMakeFiles/imgui.dir/backends/imgui_impl_wgpu.cpp.o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o CMakeFiles/imgui.dir/misc/cpp/imgui_stdlib.cpp.o CMakeFiles/imgui.dir/imgui.cpp.o CMakeFiles/imgui.dir/imgui_draw.cpp.o CMakeFiles/imgui.dir/imgui_tables.cpp.o CMakeFiles/imgui.dir/imgui_widgets.cpp.o
-C:\Users\JACKBL~1\DOCUME~1\emsdk\upstream\EMSCRI~2\emranlib.bat libimgui.a
