@@ -28,7 +28,7 @@ I have taken a break from this project in favor of working with Vulkan, but this
 <div class = "bg-div">
 <br>
 <table class = "image-table">
-<th><img src="/assets/graphics/TreeEngine/tree_mesh1.png"></th>
+<th><img src="/assets/graphics/TreeEngine/tree_thumbnail.png"></th>
 </table>
 <br>
 The mesh generation is just a noisy cylindrical method
@@ -54,6 +54,9 @@ Here are some other images of trees at various stages of the project.
 </tr>
 <tr>
 <th><img src="/assets/graphics/TreeEngine/tree_mesh2.PNG"></th>
+<th><img src="/assets/graphics/TreeEngine/tree_mesh1.PNG"></th>
+</tr>
+<tr>
 <th><img src="/assets/graphics/TreeEngine/tree_mesh3.PNG"></th>
 </tr>
 </table>
