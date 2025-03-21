@@ -1,6 +1,7 @@
 ---
 title: Fixing the Bloodborne Vertex Explosion
-categories:
+description: in the ShadPS4 emulator
+categories: 
 - graphics
 - blog
 published_date: 2025-03-19 08:51:26.922766 +0000
